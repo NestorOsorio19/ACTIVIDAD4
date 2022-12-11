@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="CSS/estilos.css">
+	<link rel="stylesheet" href="CSS/nosotros.css">
+	<link rel="stylesheet" href="CSS/formulario.css">
+	<link rel="stylesheet" href="fontello-501a75be/css/fontello.css">
+	<meta name="viewport" content="width=device-width, user-scalabel=yes, initial-scale=3.0, maximum-scale=1.0">
+	<title>Corporacion Universitaria Iberoamericana</title>
+</head>
+<body>
+
+	<header class="main-header">
+		<div class="container container--flex">
+			<div class="logo-container column column--50">
+				<h1 class="logo">Corporacion Universitaria Iberoamericana</h1>
+			</div>
+			<div class="main-header__contacInfo column column--50">
+				<p class="main-header__contacInfo__phone">
+					<span class="icon-phone">+1 746 68 76</span>
+				</p>
+				<p class="main-header__contacInfo__address">
+					<span class="icon-location"> Calle 67 # 5-27, Bogotá D.C.</span>
+				</p>
+			</div>
+		</div>
+	</header>
+
+	<nav class="main-nav">
+		<div class="container container--flex">
+			<span class="icon-menu" id="btnmenu"></span>
+			<ul class="menu" id="menu">
+				<li class="menu__item"><a href="/" class="menu__link menu__link--select">Inicio</a></li>
+				<li class="menu__item"><a href="Nosotros.html" class="menu__link">Nosotros</a></li>
+				<li class="menu__item"><a href="inscripcion.html" class="menu__link">Inscripción</a></li>
+			</ul>
+			<div class="social-icon">
+				<a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+				<a href="" class="social-icon__link"><span class="icon-instagram"></span></a>
+			</div>
+		</div>
+	</nav>
+
+	<section class="banner">
+		<img src="IMG/nosotros 1.jpeg" alt="" class="banner__img">
+		<div class="banner__content">Inscripciones Abiertas</div>
+	</section>
+	<div class="container">
+        <form id="form" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2"name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+	<footer class="main-footer">
+		<div class="container container--flex">
+
+			<div class="column column--33">
+				<h2 class="column__title">¿Por qué estudiar con nostros?</h2>
+				<p class="column__txt">En la Ibero ofrecemos programas de educación superior de alta calidad, en concordancia con nuestro proyecto educativo, en el marco de los requisitos normativos aplicables a la institución y en concordancia con la satisfacción de las necesidades y expectativas de nuestros estudiantes.</p>
+			</div>
+
+			<div class="column column--33">
+				<h2 class="column__title">Contacto</h2>
+				<p class="column__txt"><a href="" class="icon-phone">+1 746 68 76</a></p>
+				<p class="column__txt"><a href="" class="icon-location">Calle 67 # 5-27, Bogotá D.C.</a></p>
+			</div>
+
+			<div class="column column--33">
+				<h2 class="column__title">Siguenos en nuestras redes</h2>
+				<p class="column__txt"><a href="" class="icon-facebook">Facebook</a></p>
+				<p class="column__txt"><a href="" class="icon-instagram">Instagram</a></p>
+				<p class="column__txt"><a href="" class="icon-youtube">Youtube</a></p>
+			</div>
+
+		</div>
+	</footer>
+	<script src="JS/menu.js"></script>
+	<script src="JS/formulario.js"></script>
+</body>
+</html>
